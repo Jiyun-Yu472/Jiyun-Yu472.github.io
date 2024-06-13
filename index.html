@@ -80,7 +80,7 @@
 
       document.getElementById('pdf-viewer').appendChild(canvas);
 
-      var pdfUrl = '/m/pdfPolicy';
+      var pdfUrl = './static/media/NH_Charge_policy_terms.pdf';
 
       pdfjsLib.getDocument(pdfUrl).promise
         .then(pdfDoc_ => {
